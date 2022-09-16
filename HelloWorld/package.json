@@ -1,6 +1,6 @@
 {
   "name": "HelloWorld",
-  "version": "0.0.5",
+  "version": "v1.22.19",
   "description": "This SubQuery project can be use as a starting point for shiden network",
   "main": "dist/index.js",
   "scripts": {
@@ -21,10 +21,10 @@
   "license": "MIT",
   "devDependencies": {
     "@polkadot/api": "^9",
-    "@subql/types": "latest",
-    "typescript": "^4.1.3",
     "@subql/cli": "latest",
-    "@unique-nft/types": "latest"
+    "@subql/types": "latest",
+    "@unique-nft/types": "latest",
+    "typescript": "^4.1.3"
   },
   "exports": {
     "chaintypes": "src/chaintypes.ts"
